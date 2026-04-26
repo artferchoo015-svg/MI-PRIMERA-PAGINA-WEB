@@ -1,0 +1,101 @@
+/* Configuración General */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    background-color: #f4f4f4;
+}
+/* Estilo para el Header (Fondo oscuro de la captura) */
+header {
+    background-color: #333333; /* Gris oscuro */
+    padding: 30px 10px;
+    border-bottom: 5px solid #f57c00; /* Línea naranja gruesa debajo */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin: 0;
+    background-color: transparent; /* Quitamos el fondo individual para usar el del header */
+}
+
+header h4 {
+    color: #4caf50; /* Verde similar al de la captura */
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+/* Título de cada artículo (MAYÚSCULAS y grande) */
+.titulo-principal {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #1b5e20;
+    background-color: #c8e6c9;
+    padding: 15px;
+    display: block; /* Para que ocupe todo el ancho del artículo */
+}
+article {
+    display: flex;
+    flex-direction: column;
+    border-left: 8px solid #2e7d32;
+    border-right: 8px solid #2e7d32;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Títulos Principales: MÁS GRANDES Y MAYÚSCULAS */
+.titulo-principal {
+    font-size: 4rem;
+    text-transform: uppercase; /* Todo a mayúsculas */
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Títulos secundarios: Menor tamaño */
+h2 { font-size: 2em; background-color: #fff9c4; padding: 10px; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.2em; }
+
+/* Párrafos tamaño H3 */
+p {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Imágenes al final del article */
+.IMAGENES {
+    order: 10;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.IMAGENES img { width: 45%; border-radius: 5px; }
+
+/* COLORES DE LAS CAJAS */
+.texto { background-color: #e8f5e9; padding: 15px; margin: 10px 0; }
+
+/* CAJA MANOS A LA OBRA / SOLUCIONES (Corregido) */
+.soluciones {
+    background-color: #ffeb3b; /* Amarillo fuerte */
+    color: #333;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px dashed #fbc02d;
+}
+
+.desde-casa { background-color: #ffe0b2; padding: 15px; margin: 10px 0; }
+.desde-la-escuela { background-color: #bbdefb; padding: 15px; margin: 10px 0; }
+.desde-el-municipio { background-color: #d1c4e9; padding: 15px; margin: 10px 0; }
+
+ul { display: inline-block; text-align: left; }
